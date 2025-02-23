@@ -1,0 +1,72 @@
+.fourth-page-menu .text h2,
+.fourth-page-menu .text h3 {
+    text-align: center;
+}
+
+.fourth-page-menu{
+    margin-bottom: -50px;
+    /* а то щось дуже велика вістань між секціями 0-0 */
+}
+
+.fourth-page-menu .text h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fb9333;
+    margin-bottom: 0;
+}
+  
+.fourth-page-menu .text h2 {
+    margin-top: 25px;
+    font-size: 48px;
+    font-weight: 600;
+    color: #585858;
+    line-height: 1.26;
+    margin-bottom: 70px;
+}
+
+.fourth-page-menu .text {
+    margin: 0 120px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.dish-title,
+.dish-cost {
+    position: absolute;
+    left: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.dish-title {
+    bottom: 50px;
+    font-size: 18px;
+}
+
+.dish-cost {
+    bottom: 20px;
+    font-size: 22px;
+}
+
+.menu-item {
+    position: relative;
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.menu-item img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}

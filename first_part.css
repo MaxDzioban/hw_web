@@ -1,0 +1,182 @@
+.first_part {
+    display: flex;
+    margin-top: 110px;
+    margin-bottom: 170px;
+    /* overflow: hidden;  */
+  }
+  
+  .highlight {
+    border-radius: 100px;
+    padding: 13px;
+    background-color: #fff0dc;
+    color: #fb9333;
+    font-weight: 600;
+  }
+  
+  h1 {
+    font-size: 64px;
+    font-weight: 700;
+    color: #575757;
+    line-height: 1.1;
+    margin-bottom: 37px;
+    margin-top: 54px;
+  }
+  
+  .header-page-text {
+    width: 40%;
+    margin-left: 120px;
+    p {
+      font-size: 20px;
+      color: #828282;
+    }
+    button {
+      all: unset;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 100px;
+      background-color: #fb9333;
+      color: #ffffff;
+      padding: 22px 48px;
+      margin-top: 12px;
+      margin-bottom: 110px;
+    }
+    .main-statistics {
+      max-width: 380px;
+      width: 63%;
+      display: flex;
+      justify-content: space-between;
+      .statistics-entry {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span {
+          color: #828282;
+        }
+        .statistics-amount {
+          color: #575757;
+          font-size: 24px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  
+  /* .main-image {
+    position: relative;
+    width: 50%;
+  } */
+
+  .main-image {
+    position: relative;
+    width: 50%;
+    max-width: 600px; /* або адаптивне обмеження */
+}
+
+
+  .woman-img {
+    max-width: 76%; /* Залишаємо обмеження 80% від батьківського контейнера */
+    width: 100%; /* Адаптується до контейнера */
+    height: auto; /* Зберігає пропорції */
+}
+
+.background-img{
+  height: 100%;
+  align-items: end;
+}
+  
+  .customer-review {
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 7px 50px 7px 7px;
+    border-radius: 100px;
+    justify-content: space-between;
+    position: absolute;
+    top: 593px;
+    right: 380px;
+    box-shadow: 0 0px 40px #FFD34724;
+  }
+  
+  .customer-text {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+  
+  .happy-text {
+    font-weight: 600;
+    color: #575757;
+  }
+  
+  .star-rating span {
+    font-size: 12px;
+    color: #999999;
+  }
+  
+  .calories {
+    position: absolute;
+    top: 565px;
+    right: 69px;
+    background-color: #ffffff;
+    border-radius: 28px;
+    padding: 21px 29px;
+    opacity: 0.95;
+    span {
+      color: #575757;
+      font-size: 16px;
+    }
+    h6 {
+      font-size: 24px;
+      margin: 0 0 15px 0;
+      color: #575757;
+      font-weight: 600;
+      b {
+        font-weight: 600;
+        color: #2b2b2b;
+      }
+    }
+  
+    .calorie-progress-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .progress-bar {
+      height: 70px;
+      width: 9px;
+      background: #e7e5f1;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+    }
+  
+    .progress-bar::before {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: var(--value);
+      background: linear-gradient(180deg, #FFD7A0 0%, #FB9333 100%);
+      border-radius: 5px;
+    }
+  }
+
+  .first_part {
+    display: flex;
+    margin-top: 110px;
+    margin-bottom: 170px;
+    position: relative; /* Додаємо для коректного позиціонування background-img */
+}
+
+.background-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%; /* Займає праву половину екрану */
+    height: 80%;
+    object-fit: cover; /* Забезпечує збереження пропорцій */
+    z-index: -1; /* Відправляє фон позаду контенту */
+    pointer-events: none; /* Запобігає взаємодії з ним */
+}

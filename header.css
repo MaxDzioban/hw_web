@@ -1,0 +1,55 @@
+body {
+    font-size: 16px;
+    font-family: "Roboto", serif;
+}
+
+.background-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-width: 1350px;
+  width: 100%;
+  height: auto;
+  z-index: -1;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 100px;
+  background-color: white;  
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 900;
+}
+
+.text-logothype {
+  color: #fb9333;
+  font-weight: bold;
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header-link {
+  text-decoration: none;
+  color: #575757;
+}
+
+.header-link:hover {
+  color: orange;
+}
+
+.sign-up-button {
+  background-color: #f48721;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+}
